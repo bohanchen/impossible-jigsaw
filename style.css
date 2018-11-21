@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 70%;
+    margin: auto;
+
+}
+
+.grid-item{
+    background-color: aquamarine;
+    width: 100%;
+    opacity: 0;
+    transition-duration: 1.5s;
+
+}
+
+.grid-item:hover{
+    opacity: 1;
+}
